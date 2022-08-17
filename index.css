@@ -214,7 +214,7 @@ h1{
         display: block;
     }
     .nav-link{
-        position: absolute;
+        position:fixed;
         background:#009b00;
         height: 100vh;
         width: 200px;
