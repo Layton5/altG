@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
 
 }
 .header{
@@ -47,7 +47,7 @@ position: relative;
     content: '';
     width: 0;
     height: 2px;
-    background: #f44336;
+    background: #009b00;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -88,7 +88,7 @@ position: relative;
     cursor: pointer;
 }
 .hero:hover{
-    border: 1px solid black;
+    border: 1px solid #009b00;
     background: black;
     transition: 0.6s;
 }
@@ -109,13 +109,6 @@ h1{
     font-weight: 600;
 }
 
-p{
-color: #777;
-font-size: 14px;
-font-weight: 300;
-line-height: 22px;
-padding: 10px;
-}
 
 .row,.con{
     margin-top: 5%;
@@ -123,30 +116,22 @@ padding: 10px;
     justify-content: space-between;
 }
 
-.services{
-    flex-basis: 31%;
-    background-image: url(/images/carousel1.jpg);
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    height: 200px;
-    transition: 0.5s;
-}
 .services:hover{
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 0px rgba(0, 226, 124, 0.9);
 }
 
-.one{
-    background-image: url(/images/bodyyy.jpg);
-}
-.about-us{
+
+.about-us , .services{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
-.about-column{
+
+.about-us,p{
+    font-style: italic;
+}
+.about-column, .con{
     flex-basis: 32%;
     border-radius:10px;
     margin-bottom: 30px;
@@ -174,7 +159,7 @@ padding: 10px;
 }
 
 .layer:hover{
-    background: rgba(226, 0, 0, 0.9);
+    background: rgba(0, 226, 124, 0.9);
 }
 
 .layer h3{
@@ -219,8 +204,10 @@ padding: 10px;
 
 
 @media(max-width:700px){
+    
     .text-box h1{
         font-size: 20px;
+        font-family: 'Lato', sans-serif;
 
     }
     .nav-link ul li{
@@ -228,7 +215,7 @@ padding: 10px;
     }
     .nav-link{
         position: absolute;
-        background:#f44336;
+        background:#009b00;
         height: 100vh;
         width: 200px;
         top: 0;
