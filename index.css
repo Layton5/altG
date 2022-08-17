@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/jj.jpg);
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/back.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -20,9 +20,9 @@ align-items: center;
 }
 
 nav img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+
 }
 
 .nav-link{
@@ -38,7 +38,7 @@ position: relative;
 }
 
 .nav-link ul li a{
-    color:wheat;
+    color: white;
     text-decoration: none;
     font-size: 13px;
 }
@@ -47,7 +47,7 @@ position: relative;
     content: '';
     width: 0;
     height: 2px;
-    background: #009b00;
+    background: #7338AC;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -88,8 +88,8 @@ position: relative;
     cursor: pointer;
 }
 .hero:hover{
-    border: 1px solid #009b00;
-    background: black;
+    border: 1px solid #7338AC;
+    background: #7338AC;
     transition: 0.6s;
 }
 
@@ -117,7 +117,7 @@ h1{
 }
 
 .services:hover{
-    box-shadow: 0 0 20px 0px rgba(0, 226, 124, 0.9);
+    box-shadow: 0 0 20px 0px rgba(117, 0, 226, 0.9);
 }
 
 
@@ -159,7 +159,7 @@ h1{
 }
 
 .layer:hover{
-    background: rgba(0, 226, 124, 0.9);
+    background: rgba(117, 0, 226, 0.9);
 }
 
 .layer h3{
@@ -215,7 +215,7 @@ h1{
     }
     .nav-link{
         position:fixed;
-        background:#009b00;
+        background:#7338AC;
         height: 100vh;
         width: 200px;
         top: 0;
