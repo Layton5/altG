@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/back.jpg);
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/landing.jfif);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -20,8 +20,8 @@ align-items: center;
 }
 
 nav img{
-    width: 80px;
-    height: 80px;
+    width: 0px;
+    height: 0px;
 
 }
 
@@ -61,7 +61,7 @@ position: relative;
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -86,11 +86,13 @@ position: relative;
     background: transparent;
     position: relative;
     cursor: pointer;
+    
 }
 .hero:hover{
     border: 1px solid #7338AC;
     background: #7338AC;
     transition: 0.6s;
+    
 }
 
 nav .fa{
@@ -102,6 +104,7 @@ nav .fa{
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/back.jpg);
 
 }
 h1{
@@ -155,6 +158,7 @@ h1{
     top: 0;
     left: 0;
     transition: 0.5s;
+    
 
 }
 
