@@ -157,3 +157,7 @@ span{
     font-weight: 500;
     color: #7338AC;
 }
+.text a{
+    text-decoration: none;
+    color: #7338AC;
+}
